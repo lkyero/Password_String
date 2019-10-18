@@ -25,7 +25,7 @@ namespace Passwords
         /// <exception>
         /// catch:return 原内容
         /// </exception>
-        private static string Encrypt(string content, string secretKey)
+        public static string Encrypt(string content, string secretKey)
         {
             try
             {
@@ -65,7 +65,7 @@ namespace Passwords
         /// <exception>
         /// catch:return 原内容
         /// </exception>
-        private static string Decrypt(string content, string secretKey)
+        public static string Decrypt(string content, string secretKey)
         {
             try
             {
