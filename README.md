@@ -1,7 +1,7 @@
 # Password_String
 String 文本简单加密解密~
 
-编译：vs2019 ，win10专业版1809
+编译：vs2019 ，win10专业版1809，.Net Framework4.6
 
 打开解决方案，右键Passwords工程--生成，Debug文件夹下生成Passwords.dll文件和Passwords.xml文件。
 
