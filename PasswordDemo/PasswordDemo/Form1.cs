@@ -24,11 +24,6 @@ namespace PasswordDemo
             {
                 ofd.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 ofd.Title = "请选择要加密的TXT文件";
-                ofd.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
-                //ofd.RestoreDirectory = true;
-                ofd.DereferenceLinks = true;
-                ofd.CheckFileExists = true;
-                ofd.CheckPathExists = true;
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
                     richTextBox1.Text = File.ReadAllText(ofd.FileName, Encoding.UTF8);
